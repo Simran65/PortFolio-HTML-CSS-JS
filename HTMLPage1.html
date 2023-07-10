@@ -1,0 +1,322 @@
+﻿<!doctype html>
+<html lang="en" dir="ltr">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        body {
+            background-color: #f8f9fa;
+            color: #343a40;
+        }
+        .progress-bar-wrap,skill{
+            color:black;
+            font-size:50px;
+            font-weight:bold;
+        }
+        .container1 {
+            background: url("MyImage.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            justify-content: left;
+            color: #e5e5e5;
+            font-size: 2rem;
+            text-transform: uppercase;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+        }
+
+        .animation {
+            height: 40px;
+            overflow: hidden;
+            margin-left: 1rem;
+        }
+
+            .animation > div > div {
+                padding: 0.5rem 0.75rem;
+                height: 3rem;
+                margin-bottom: 2.81rem;
+                display: inline-block;
+            }
+
+            .animation div:first-child {
+                animation: text-animation 8s infinite;
+            }
+
+        .first div {
+            background-color: lightslategrey;
+        }
+
+        .second div {
+            background-color: lightslategrey;
+        }
+
+        .third div {
+            background-color: lightslategrey;
+        }
+
+        @keyframes text-animation {
+            0% {
+                margin-top: 0;
+            }
+
+            10% {
+                margin-top: 0;
+            }
+
+            20% {
+                margin-top: -5.62rem;
+            }
+
+            30% {
+                margin-top: -5.62rem;
+            }
+
+            40% {
+                margin-top: -11.24rem;
+            }
+
+            60% {
+                margin-top: -11.24rem;
+            }
+
+            70% {
+                margin-top: -5.62rem;
+            }
+
+            80% {
+                margin-top: -5.62rem;
+            }
+
+            90% {
+                margin-top: 0;
+            }
+
+            100% {
+                margin-top: 0;
+            }
+        }
+
+        .section-bg {
+            background-color: darkslategray;
+        }
+
+        #skills .skills-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+
+        #skills .progress {
+            margin-bottom: 15px;
+        }
+
+        #skills .skill {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: bold;
+            color: white;
+        }
+
+        #skills .val {
+            font-style: italic;
+            color: white;
+        }
+
+        #skills .progress-bar-wrap {
+            height: 20px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 50px;
+            overflow: hidden;
+        }
+
+        #skills .progress-bar {
+            height: 100%;
+            background-color: #01a9c4;
+            border-radius: 50px;
+            width: 0;
+        }
+    </style>
+
+    <title>Simran Achra</title>
+</head>
+
+<body>
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <button type="button" class="btn btn-primary position-relative">
+                Simran
+                <span class="position-absolute top-0 start-100 translate-middle p-2 bg-light border border-light rounded-circle">
+                    <span class="visually-hidden">New alerts</span>
+                </span>
+            </button>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="background-color: white;">
+                <span class="navbar-toggler-icon">-</span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" style="color: white;" aria-current="page" href="#home">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" style="color: white;" href="#about">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" style="color: white;" aria-current="page" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" style="color: white;" aria-current="page" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" style="color: white;" aria-current="page" href="cv.pdf" target="_blank">Download CV</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!--Intro Section-->
+    <main class="container1" id="home">
+        <img src="Logo.png" width="150" height="150" alt="Simran Image" style="position:absolute;margin-bottom: 530px; margin-left: 0;">
+        <p style="margin-left: 60px;">Hye! I'm</p>
+        <section class="animation">
+            <div class="first">
+                <div>Simran Achra</div>
+            </div>
+            <div class="second">
+                <div>Developer</div>
+            </div>
+            <div class="third">
+                <div>Pogrammer</div>
+            </div>
+        </section>
+
+    </main>
+
+    <!--About Section-->
+    <div id="about" class=".container-fluid" style="background-color: dimgray; height: 70vh;">
+        <div class="row">
+            <h1 style="font-size: 50px; color: black; font-style: italic; font-weight:bold;">About</h1>
+            <hr style="color: white; height: 6px; border-style: dotted;">
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12" style="font-size: 25px; color: black; font-style: italic; padding: 2.5%;">
+                <ul>
+                    <li><b>Degree:</b><span>3rd year BSCS</span></li>
+                    <li><b>City:</b><span>Sukkur Sindh</span></li>
+                    <li><b>Email:</b><span>SimranAchra76@gmail.com</span></li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12" style="font-size: 25px; color: black; font-style: italic; padding: 5%;">
+                <ul>
+                    <li><b>Phone:</b><span>031-38115692</span></li>
+                    <li><b>Birthday:</b><span>01 January 2022</span></li>
+                    <li><b>Freelance:</b><span>Available</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--Skills Section-->
+        <div class="row" id="skills" style="background-color: Darkgray ">
+            <div class="col-1"></div>
+            <div class="col-10">
+                <br><br><br>
+                <h1 style="font-size: 50px; color: black; font-style: italic; font-weight:bold;">Skills</h1>
+                <hr style="color: white; height: 6px; border-style: dotted;">
+                <br>
+
+                <div class="row ">
+
+                    <div class="col-lg-6">
+                        <p style="color: white;">HTML</p>
+                        <div class="progress">
+                            <div class="progress-bar w-100  " role="progressbar" aria-valuenow="75" aria-valuemin="50" aria-valuemax="100"></div>
+                        </div><br>
+
+
+                        <p style="color: white;">CSS</p>
+                        <div class="progress">
+                            <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="50" aria-valuemax="100"></div>
+                        </div>
+                        <br>
+
+                        <p style="color: white;">JAVASCRIPT</p>
+                        <div class="progress">
+                            <div class="progress-bar w-50" role="progressbar" aria-valuenow="75" aria-valuemin="50" aria-valuemax="100"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-6">
+                        <p style="color: white;">JAVA</p>
+                        <div class="progress">
+                            <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="50" aria-valuemax="100"></div>
+                        </div><br>
+
+
+                        <p style="color: white;">PYTHON</p>
+                        <div class="progress">
+                            <div class="progress-bar w-100" role="progressbar" aria-valuenow="75" aria-valuemin="50" aria-valuemax="100"></div>
+                        </div>
+                        <br>
+
+                        <p style="color: black;">DATABASE</p>
+                        <div class="progress">
+                            <div class="progress-bar w-50" role="progressbar" aria-valuenow="75" aria-valuemin="50" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <br><br><br><br>
+            </div>
+            <br><br><br><br>
+            <div class="col-1"></div>
+        </div>
+        <!--Contact Section-->
+        <div id="contact" style="background-color: lightgray; height: 70vh; padding: 0; margin: 0;">
+            <h1 style="font-size: 50px; color: black; font-style: italic; font-weight: bold; margin-top: 3%; background-color: gray;">Contact</h1>
+            <hr style="color: white; height: 6px; border-style: dotted;">
+            <div class="border border-2" style="margin: 5%; background-color: white; height: 50vh; box-shadow: 5px 5px 5px rgba(1, 2, 5, 1);">
+                <div style="text-align: center; justify-content: center; align-content: center; font-size: 30px; margin: 5%;">
+                    <div><b>Location:</b> Bandor Road, Sukkur, Sindh.</div>
+                    <div><b>Contact No:</b> +923138115692</div>
+                    <div><b>Email:</b> SimranAcha76@gmail.com</div>
+                </div>
+                <div style="text-align: center; margin-top: 20px;">
+                    <a href="#" style="text-decoration: none; color: blue;">Website</a>
+                    <span style="margin: 0 10px;">|</span>
+                    <a href="#" style="text-decoration: none; color: blue;">Social Media</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Optional JavaScript; choose one of the two! -->
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+        -->
+</body>
+
+</html>
